@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tania Marin Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+</head>
+<div class="background">
+
+
+    <a href="index.php"> <img id="logo" src="http://taniamarin.weebly.com/uploads/1/9/9/5/19958899/1454616862.png" alt="logo"></a>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="index.php"> Portfolio</a></li>
+            <li><a href="Services.html"> Services</a></li>
+            <li><a href="About.html"> About</a></li>
+            <li><a href="contact.html"> Contact</a></li>
+        </ul>
+    </nav>
+    <div class="social">
+        <ul>
+            <li>
+                <a target="_blank" href="https://www.facebook.com/TaniaMarin.digitalartist/">
+                    <img src="imagini/facebook.png" alt="Facebook">
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.instagram.com/_tania.art_/">
+                    <img src="imagini/insta.png" alt="Facebook">
+                </a>
+            </li>
+
+        </ul>
+    </div>
+    <br>
+    <table align="center" class="form">
+        <form name="f1" action="add.php" method="get">
+            <tr>
+                <td colspan="2"> <i>Name</i></td>
+                <tr>
+                    <td><input type="text" size="15" value="First" /> &nbsp<input type="text" size="19" value="Last" /></td>
+                </tr>
+                <tr>
+                    <td><i>Email</i></td>
+                </tr>
+                <tr>
+                    <td> <input type="text" size="46" value="" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <i>Subject</i></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="r1" value="Commision" checked/> Commision
+                        <input type="radio" name="r1" value="Other" />Other</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><i>Where did you see my work?</i></td>
+                    <tr>
+                        <td><input type="checkbox" name="c1" /> Facebook
+                            <input type="checkbox" name="c2" /> Instagram </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"> <i>What services catch your eye? </i></td>
+                        <tr>
+                            <td colspan="2"> <select name="lista">
+<option value="1">Book Cover</option>
+<option value="2">CD Cover</option>
+<option value="3">Banners</option>
+<option value="4">Posters</option>
+<option value="5">Other</option>
+</selected>
+<tr><td colspan="2"> <i>Insert your text here:</i></td> </tr>
+<tr><td colspan="2">
+<textarea name="message" rows="10" cols="50">Write your message here</textarea></td></tr>
+
+<tr><td colspan="2" align="center">
+  <input type="Reset" name="Reset" value="Reset"/>
+  <input type="Submit" name="Submit" value="Submit"/></tr>
+  </form>
+</table>
+</div>
+  </body>
+  </html>

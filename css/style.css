@@ -1,0 +1,197 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.background {
+    background-image: url("../imagini/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+}
+
+
+/*MENIU*/
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    color: #dee6f2;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 20px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+nav ul li>a {
+    text-decoration: none;
+    padding: 5px;
+    color: #5a5d63;
+}
+
+nav ul li>a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+
+/*GALERIA*/
+
+div.gallery {
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+div.img {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin: 5px;
+    display: block;
+    float: left;
+    margin: 2px;
+    height: auto;
+    width: auto;
+}
+
+div.img img {
+    width: auto;
+    display: inline;
+    margin: 0 auto;
+    height: 250px;
+}
+
+
+/*services*/
+
+.tabel_servicii {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    min-width: 450px;
+    height: auto;
+    text-align: center;
+}
+
+.tabel_servicii td,
+tr {
+    padding: 10px;
+    margin: 10px;
+}
+
+.img_servicii {
+    padding: 10px;
+    height: 250px;
+    width: auto;
+}
+
+
+/*ABOUT*/
+
+#avatar {
+    max-height: 350px;
+    margin: auto;
+    padding: 20px;
+}
+
+.tabel_about {
+    margin: 20px;
+    width: 800px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.tabel_about td {
+    font-size: 15px;
+    padding: 20px;
+    text-align: justify;
+}
+
+
+/*CONTACT*/
+
+.form {
+    padding-top: 45px;
+    display: block;
+    margin: 0 auto;
+    max-width: 750px;
+    height: auto;
+    text-align: left;
+}
+
+.form tr,
+td {
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px;
+}
+
+input[type=text],
+select,
+textarea {
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: #4d5059;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+i {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div.social {
+    display: inline-block;
+    position: absolute;
+    top: auto;
+    left: 65%;
+}
+
+.social li {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    margin: 0 auto;
+}
+
+.social ul li {
+    padding: 10px;
+    list-style-type: none;
+}
